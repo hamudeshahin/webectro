@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "dev": "next dev",
     "build": "NODE_OPTIONS=--openssl-legacy-provider next build && next export",
     "postbuild": "next-sitemap"
   },
